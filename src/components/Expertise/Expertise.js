@@ -11,7 +11,7 @@ class Expertise extends Component {
     render() {
 
         return(
-            <div className='fdsfs'>'Expertise'>Expertise</div>
+            <div className='Expertise'>Expertise</div>
         )
     }
 }
