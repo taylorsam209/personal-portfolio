@@ -1,11 +1,15 @@
 .About {
     padding-top:46px;
-    height: 700px;
+    height: 800px;
     width: 100vw;
     background-image: url("../../assets/galaxy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+hr{
+    display: none;
 }
 
 .bio-img-container{
@@ -25,4 +29,20 @@
 
 .bio-description{
     padding: 0 50px 20px 50px;
+}
+
+.resume {
+    padding: 2% 0;
+    margin: auto;
+    color: black;
+    width: 150px;
+    background: white;
+    border-radius: 30px;
+    -webkit-transition: background 1s; /* Safari */
+    transition: background 1s;
+    border: solid 1px gray;
+}
+
+.resume:hover {
+    background: rgb(190, 226, 255);
 }

@@ -11,16 +11,21 @@ class App extends Component {
       <div id="App">
         <div className='nav-container'>
           <ul className='nav'>
-            <li><a href="#page4">Contact</a></li>
-            <li><a href='#page3'>Work</a></li>
-            <li><a href='#page2'>Skills</a></li>
-            <li><a href='#page1'>About</a></li>
+            <li><a className ="anchor" href="#page4">Contact</a></li>
+            <li><a className ="anchor" href='#page3'>Work</a></li>
+            <li><a className ="anchor" href='#page2'>Expertise</a></li>
+            <li><a className ="anchor" href='#page1'>About</a></li>
           </ul>
         </div>
         <div id='page1'><About /></div>
         <div id='page2'><Expertise /></div>
         <div id='page3'><Projects /></div>
         <div id='page4'><Contact /></div>
+        
+        <div id="footer">
+        Made with ReactJS
+        <span>Developed with Skills</span>
+        </div>
       </div>
     );
   }

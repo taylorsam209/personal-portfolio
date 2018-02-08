@@ -1,5 +1,36 @@
 .Expertise {
     width: 100vw;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid rgb(196, 211, 181); */
+    background: linear-gradient(rgb(6, 7, 9), rgb(64, 88, 95));
+}
+
+.Expertise h1 {
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 3px white;
+}
+
+.sub-header{
+    font-weight: bold;
+}
+
+.tech-container{
+    font-size: 16px;
+    font-weight: bold;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tech-container li {
+list-style: none;
+padding: 12px;
 }
