@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './Projects.css';
 
 class Projects extends Component {
@@ -10,8 +10,15 @@ class Projects extends Component {
     }
     render() {
 
-        return(
-            <div className='Projects'>Projects</div>
+        return (
+            <div className='Projects'>
+                <h1>Work</h1>
+                <div className="work-container">
+                <h2>Closii Music</h2>
+                
+                </div>
+
+            </div>
         )
     }
 }
