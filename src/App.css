@@ -35,6 +35,22 @@
   background-color: rgba(52, 79, 151, 0.45)
 }
 
+.button {
+  padding: 2% 0;
+  margin: 7px auto 7px auto;
+  color: black;
+  width: 150px;
+  background: white;
+  border-radius: 30px;
+  -webkit-transition: background 1s; /* Safari */
+  transition: background 1s;
+  border: solid 1px gray;
+}
+
+.button:hover {
+  background: rgb(190, 226, 255);
+}
+
 #test {
   height: 500px;
   width: 100vw;

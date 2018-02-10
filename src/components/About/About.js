@@ -12,7 +12,7 @@ class About extends Component {
                 <h1>Taylor Sam</h1>
                 <h2>Web Developer</h2>
                 <p className="bio-description"> I graduated from DevMountain. </p>
-                <a href={resume} style={{textDecoration: "none"}} target="blank"><div className ="resume">See My Resume</div></a>
+                <a href={resume} style={{ textDecoration: "none" }} target="blank"><div className="button">See My Resume</div></a>
 
             </div>
         )

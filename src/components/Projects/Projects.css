@@ -1,11 +1,43 @@
 .Projects {
+    color: black;
     width: 100vw;
-    height: 500px;
+    height: auto;
     /* border: 2px solid blue; */
-    background-color: rgb(138, 138, 190);
 }
 
 .Projects h1 {
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid 3px rgb(0, 0, 0);
+}
+
+.work-container {
+    /* clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); */
+    padding-bottom: 20px;
+}
+
+.work-container h2 {
     margin-top: 0px;
     padding-top: 20px;
+}
+
+.work-container img {
+    height: 200px;
+    width: 70%;
+}
+.work-container h3 {
+    margin: 0;
+}
+
+.work-container p {
+    padding: 5px 30px 5px 30px;
+}
+
+.vegan-eats {
+    background: gray;
 }

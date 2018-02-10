@@ -1,6 +1,7 @@
 .Expertise {
     width: 100vw;
     height: 500px;
+    padding-bottom: 20px;
     /* border: 2px solid rgb(196, 211, 181); */
     background: linear-gradient(rgb(6, 7, 9), rgb(64, 88, 95));
 }
@@ -11,7 +12,7 @@
     margin-bottom: 10px;
     padding-bottom: 5px;
     width: 50%;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     border-bottom: solid 3px white;
 }

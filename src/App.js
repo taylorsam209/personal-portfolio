@@ -12,7 +12,7 @@ class App extends Component {
       <div id="App">
         <div className='nav-container'>
           <ul className='nav'>
-            <li><AnchorLink href="#page4">Contact</AnchorLink></li>
+            <li><AnchorLink offset="46" href="#page4">Contact</AnchorLink></li>
             <li><AnchorLink offset="46" href='#page3'>Work</AnchorLink></li>
             <li><AnchorLink offset="46" href='#page2'>Expertise</AnchorLink></li>
             <li><AnchorLink offset="46" href='#page1'>About</AnchorLink></li>
