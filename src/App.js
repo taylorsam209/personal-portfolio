@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import Expertise from './components/Expertise/Expertise';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class App extends Component {
   render() {
@@ -11,10 +12,10 @@ class App extends Component {
       <div id="App">
         <div className='nav-container'>
           <ul className='nav'>
-            <li><a className ="anchor" href="#page4">Contact</a></li>
-            <li><a className ="anchor" href='#page3'>Work</a></li>
-            <li><a className ="anchor" href='#page2'>Expertise</a></li>
-            <li><a className ="anchor" href='#page1'>About</a></li>
+            <li><AnchorLink href="#page4">Contact</AnchorLink></li>
+            <li><AnchorLink offset="46" href='#page3'>Work</AnchorLink></li>
+            <li><AnchorLink offset="46" href='#page2'>Expertise</AnchorLink></li>
+            <li><AnchorLink offset="46" href='#page1'>About</AnchorLink></li>
           </ul>
         </div>
         <div id='page1'><About /></div>
