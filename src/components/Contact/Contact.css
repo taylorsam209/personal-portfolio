@@ -4,3 +4,13 @@
     border: 2px solid green;
     background-color: green;
 }
+
+.Contact ul {
+    list-style: none;
+    color: white;
+}
+
+.Contact ul li {
+    font-weight: bold;
+    font-size: 20px;
+}
