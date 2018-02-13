@@ -27,8 +27,8 @@
 }
 
 .work-container img {
-    height: 200px;
-    width: 70%;
+    height: auto;
+    max-width: 70%;
 }
 .work-container h3 {
     margin: 0;
@@ -39,5 +39,6 @@
 }
 
 .vegan-eats {
-    background: gray;
+    color: white;
+    background: rgb(98, 130, 139);
 }

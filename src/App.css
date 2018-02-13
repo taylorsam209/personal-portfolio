@@ -42,12 +42,14 @@
   width: 150px;
   background: white;
   border-radius: 30px;
-  -webkit-transition: background 1s; /* Safari */
-  transition: background 1s;
+  -webkit-transition: 0.5s; /* Safari */
+  transition: 0.5s;
   border: solid 1px gray;
 }
 
 .button:hover {
+  font-weight: bold;
+  width: 160px;
   background: rgb(190, 226, 255);
 }
 
