@@ -24,8 +24,7 @@ class App extends Component {
         <div id='page4'><Contact /></div>
         
         <div id="footer">
-        Made with ReactJS
-        <span>Developed with Skills</span>
+        Developed using React JS by Taylor Sam Copyright ©2018
         </div>
       </div>
     );

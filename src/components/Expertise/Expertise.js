@@ -14,7 +14,7 @@ class Expertise extends Component {
         return (
             <div className='Expertise'>
                 <h1>Expertise</h1>
-                <div className="sub-header">Leveraging Technology for Fullstack Web Development</div>
+                <div className="sub-header">My Development Chops</div>
                 <ul className="tech-container">
                     <li><i className="fab fa-js-square fa-2x"></i> ES6 JavaScript</li>
                     <li><i className="fab fa-html5 fa-2x"></i> HTML5</li>
