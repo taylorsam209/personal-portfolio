@@ -19,7 +19,7 @@ h1, h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .nav li {
@@ -49,11 +49,11 @@ h1, h2 {
   -webkit-transition: 0.5s; /* Safari */
   transition: 0.5s;
   border: solid 1px gray;
+  font-weight: bold;
 }
 
 .button:hover {
   color: white;
-  font-weight: bold;
   width: 160px;
   background: #1484ec;
 }
@@ -63,7 +63,7 @@ h1, h2 {
   width: 100vw;
 }
 
-#footer{
+#footer {
   padding-top: 20px;
   padding-bottom: 20px;
   height: auto;
@@ -71,6 +71,10 @@ h1, h2 {
   background-color: rgb(34, 34, 34)
 }
 
-
+@media (min-width: 900px) {
+   .button {
+    padding: 1% 0;
+  }
+}
 
 

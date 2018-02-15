@@ -7,16 +7,19 @@ class About extends Component {
     render() {
         return (
             <div className='About'>
-                
-                    <img className="bio-img" src={profile} alt="Profile" />
-                
+
+                <img className="bio-img" src={profile} alt="Profile" />
+
                 <h1>Taylor Sam</h1>
                 <h2>Web Developer</h2>
-                <p className="bio-description"> Welcome to my portfolio! Web development has become one of my passions
-                after attending DevMountain and earning a certificate in JavaScript Web Development. 
-                In my free time, I enjoy writing and playing music, exploring the city, and going on 
-                adventurous hikes. </p>
-                <a href={resume} style={{ textDecoration: "none" }} target="blank"><div className="button">See My Resume</div></a>
+                <p className="bio-description">
+                    After attending DevMountain and earning a certificate in
+                    JavaScript Web Development, tech has become one of my passions.
+                    In my free time, I enjoy writing and playing music, exploring
+                    the city, and going on adventurous hikes.
+                    Please exlpore my portfolio!
+                </p>
+                <a href={resume} style={{ textDecoration: "none" }} target="blank"><div className="button">View Resume</div></a>
 
             </div>
         )

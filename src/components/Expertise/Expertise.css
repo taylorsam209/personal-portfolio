@@ -2,7 +2,6 @@
     width: 100vw;
     height: 500px;
     padding-bottom: 20px;
-    /* border: 2px solid rgb(196, 211, 181); */
     background: linear-gradient(rgb(6, 7, 9), rgb(64, 88, 95));
 }
 
@@ -35,3 +34,24 @@
 list-style: none;
 padding: 12px;
 }
+
+@media (min-width: 700px) {
+  .Expertise h1 {
+      width: 25%;
+  }
+
+  .tech-container {
+      margin: 10px auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 999px) {
+    .Expertise {
+        height: auto;
+    }
+
+    .Expertise h1 {
+        width: 15%;
+    }
+  }

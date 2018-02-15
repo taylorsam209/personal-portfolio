@@ -42,3 +42,55 @@
     color: white;
     background: rgb(98, 130, 139);
 }
+
+@media (min-width: 700px) {
+    .Projects h1 {
+        width: 25%;
+    }
+
+    .work-container img {
+        width: 50%;
+    }
+    .work-container p {
+        padding: 5px 70px;
+    }
+  }
+
+  @media (min-width: 999px) {
+    .Projects h1 {
+        width: 15%;
+        margin-bottom: 20px;
+    }
+
+    .flexbox-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .work-container {
+        width: 33%;
+    }
+
+    .img-container {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container img {
+        width: auto;
+        max-height: 78%;
+    }
+
+      .work-container p {
+          
+          font-size: 1em;
+        padding: 5px 10px;
+        height: 100px;
+      }
+
+      .tech-description {
+          height: 125px !important;
+      }
+  }

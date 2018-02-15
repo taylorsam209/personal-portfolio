@@ -21,13 +21,30 @@
 }
 
 .Contact ul li {
+    width: 50%;
+    border: solid 2px white;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 7px auto 7px auto;
     transition: 0.75s;
+    border-radius: 20px;
 }
 
 .Contact ul li:hover {
     font-size: 23px;
+}
+
+@media (min-width: 700px) {
+    .Contact ul li {
+        width: 25%;
+        padding-top:10px;
+        padding-bottom: 10px;
+        border-radius: 30px;
+    }
+}
+
+@media (min-width: 999px) {
+    .Contact h1 {
+        width: 15%;
+    }
 }
