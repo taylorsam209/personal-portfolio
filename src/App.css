@@ -75,6 +75,9 @@ h1, h2 {
    .button {
     padding: 1% 0;
   }
+  .nav {
+    padding-right: 50px;
+  }
 }
 
 
