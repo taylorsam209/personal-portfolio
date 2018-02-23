@@ -15,8 +15,9 @@ class About extends Component {
                 <p className="bio-description">
                     After attending DevMountain and earning a certificate in
                     JavaScript Web Development, tech has become one of my passions.
+                    I love learning new things and living everyday to the fullest of my ability.
                     In my free time, I enjoy writing and playing music, exploring
-                    the city, and going on adventurous hikes.
+                    the city, and going on hikes in the wilderness.
                     Please exlpore my portfolio!
                 </p>
                 <a href={resume} style={{ textDecoration: "none" }} target="blank"><div className="button">View Resume</div></a>
