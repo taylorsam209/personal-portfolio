@@ -13,7 +13,7 @@ const Contact = () => {
             <ul>
                 <a href="https://www.linkedin.com/in/taylor-sam/" target="blank" style={{ textDecoration: "none", color: "white" }} >
                     <li><i class="fab fa-linkedin"></i> LinkedIn</li></a>
-                <a href="https://www.linkedin.com/in/taylor-sam/" target="blank" style={{ textDecoration: "none", color: "white" }} >
+                <a href="https://github.com/taylorsam209" target="blank" style={{ textDecoration: "none", color: "white" }} >
                     <li><i class="fab fa-github"></i> GitHub</li></a>
                 <a href="https://codepen.io/taylorsam209/" target="blank" style={{ textDecoration: "none", color: "white" }} >
                     <li><i class="fab fa-codepen"></i> Code Pen</li></a>
