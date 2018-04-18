@@ -16,6 +16,9 @@
 }
 
 .work-container {
+  border-bottom: solid 1px rgb(29, 72, 136);
+  /* border-left: solid 1px rgb(29, 72, 136); */
+  border-right: solid 1px rgb(29, 72, 136);
   padding-bottom: 20px;
 }
 

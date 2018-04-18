@@ -3,7 +3,7 @@ import "./Projects.css";
 import closiiMusic from "../../assets/closiimusic.PNG";
 import veganEats from "../../assets/veganeats.PNG";
 import trippin from "../../assets/trippin.PNG";
-import calendar from "../../assets/calendar-ipad.PNG";
+import calendar from "../../assets/calendar.PNG";
 import ProjectContainer from "./ProjectContainer";
 
 const Projects = () => {
@@ -25,7 +25,7 @@ const Projects = () => {
         />
 
         <ProjectContainer
-          classes="work-container offset-project"
+          classes="work-container"
           title="Calendar Scheduler"
           image={calendar}
           intro="The calendar scheduler allows users to set appointments for important dates
@@ -39,7 +39,7 @@ const Projects = () => {
       </div>
       <div className="flexbox-wrap">
         <ProjectContainer
-          classes="work-container offset-project"
+          classes="work-container"
           title="Closii Music"
           image={closiiMusic}
           intro="Closii Music is an artist portfolio developed for local Sacramento, CA 
