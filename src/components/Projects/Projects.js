@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div className="Projects">
       <h1>Projects</h1>
-      <div className="flexbox-wrap">
+       <div className="flexbox-wrap">
         <ProjectContainer
           classes="work-container"
           title="Vegan Eats"
@@ -62,7 +62,7 @@ const Projects = () => {
           website="http://trippinonline.com"
           github="https://github.com/Vacation-Application/vacation"
         />
-      </div>
+      </div> 
     </div>
   );
 };
