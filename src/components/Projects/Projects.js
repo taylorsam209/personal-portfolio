@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div className="Projects">
       <h1>Projects</h1>
-       <div className="flexbox-wrap">
+      <div className="flexbox-wrap">
         <ProjectContainer
           classes="work-container"
           title="Vegan Eats"
@@ -36,9 +36,10 @@ const Projects = () => {
           website="https://taylorsam209.github.io/calendar-scheduler/"
           github="https://github.com/taylorsam209/calendar-scheduler"
         />
-
+      </div>
+      <div className="flexbox-wrap">
         <ProjectContainer
-          classes="work-container"
+          classes="work-container offset-project"
           title="Closii Music"
           image={closiiMusic}
           intro="Closii Music is an artist portfolio developed for local Sacramento, CA 
@@ -49,9 +50,8 @@ const Projects = () => {
           website="http://closiimusic.com"
           github="https://github.com/taylorsam209/closii-artist-portfolio"
         />
-
         <ProjectContainer
-          classes="work-container offset-project"
+          classes="work-container"
           title="Trippin"
           image={trippin}
           intro="Trippin is a mobile view application that allows users to create 
@@ -62,7 +62,7 @@ const Projects = () => {
           website="http://trippinonline.com"
           github="https://github.com/Vacation-Application/vacation"
         />
-      </div> 
+      </div>
     </div>
   );
 };
