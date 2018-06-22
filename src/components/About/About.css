@@ -1,16 +1,17 @@
 .About {
-    padding-top:46px;
-    height: 900px;
+    /* padding-top:46px; */
+    height: 800px;
     width: 100%;
-    background-image: url("../../assets/galaxy.jpg");
+    /* background-color: red; */
+    /* background-image: url("../../assets/galaxy.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .bio-img {
     object-fit: cover;
-    margin-top: 30px;
+    margin-top: 76px;
     height:200px;
     width: 200px;
     border-radius: 100%;
@@ -23,9 +24,6 @@
 }
 
 @media (min-width: 700px) {
-    .bio-img{
-        margin-top: 50px;
-    }
     .bio-description {
         padding: 0 70px 20px 70px;
     }
@@ -33,10 +31,10 @@
 
 @media (min-width: 900px) {
     .About {
-        height: 650px;
+        height: 700px;
     } 
 
     .bio-description {
-        padding: 20px 200px;
+        padding: 20px 30%;
     } 
 }

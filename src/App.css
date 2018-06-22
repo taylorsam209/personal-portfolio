@@ -13,6 +13,7 @@ h1, h2 {
   position: fixed;
   width: 100vw;
   background-color: rgba(97, 111, 151, .45);
+  z-index: 5;
 }
 
 .nav {
