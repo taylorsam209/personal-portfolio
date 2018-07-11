@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Expertise.css';
+import './Experience.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-class Expertise extends Component {
+class Experience extends Component {
     render() {
         return (
-            <div className='Expertise'>
-                <h1>Expertise</h1>
+            <div className='Experience' style={{backgroundColor: 'black'}}>
+                <h1>Experience</h1>
                 <div className="sub-header">My Development Chops</div>
                 <ul className="tech-container">
                     <li><i className="fab fa-js-square fa-2x"></i> ES6 JavaScript</li>
@@ -26,4 +26,4 @@ class Expertise extends Component {
     }
 }
 
-export default Expertise;
+export default Experience;
