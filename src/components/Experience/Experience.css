@@ -1,8 +1,8 @@
 .Experience {
     width: 100%;
-    height: 500px;
+    height: auto;
     padding-bottom: 20px;
-    background-color: red;
+    background-color: rgb(65, 99, 131);
 }
 
 .Experience h1 {
