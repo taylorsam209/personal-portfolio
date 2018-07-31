@@ -3,14 +3,7 @@ import './Expertise.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 class Expertise extends Component {
-    constructor() {
-        super()
-        this.state = {
-            name: "Expertise"
-        }
-    }
     render() {
-
         return (
             <div className='Expertise'>
                 <h1>Expertise</h1>

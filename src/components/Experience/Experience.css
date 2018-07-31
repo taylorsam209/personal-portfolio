@@ -1,0 +1,38 @@
+.Experience {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: rgb(65, 99, 131);
+}
+
+.Experience h1 {
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: solid 3px white;
+}
+
+@media (min-width: 700px) {
+  .Experience h1 {
+      width: 25%;
+  }
+
+  .tech-container {
+      margin: 10px auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 999px) {
+    .Experience {
+        height: auto;
+    }
+
+    .Experience h1 {
+        width: 15%;
+    }
+  }
