@@ -54,4 +54,7 @@ padding: 12px;
     .Expertise h1 {
         width: 15%;
     }
+    .tech-container li {
+        text-align: center
+        }
   }
