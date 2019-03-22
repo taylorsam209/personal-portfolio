@@ -16,7 +16,7 @@ class About extends Component {
                 <img className="bio-img" src={profile} alt="Profile" />
 
                 <h1>Taylor Sam</h1>
-                <h2>Web Developer</h2>
+                <h2>Fullstack Developer</h2>
                 <p className="bio-description">
                     Technology has been one of my biggest passions and I am always excited about the latest innovations.
                     I love learning new things and living everyday to the fullest of my ability.
