@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div id="App">
         <div className='menu-button' onClick={() => this.handleModalClick()}>
-        <i className="fas fa-bars "></i> 
+        <i className="fas fa-bars "/>
         </div>
         <div className={`nav-container ${this.state.modalClass}`}>
           <ul className='nav'>
